@@ -16,3 +16,36 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+input {
+  display: inline-block;
+  width: 325px;
+  padding: 5px;
+}
+
+button {
+  display: inline-block;
+  padding: 5 30 5 30;
+}
+
+.timer {
+  display: flex;
+  margin-top: 30px;
+
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 30px;
+}
